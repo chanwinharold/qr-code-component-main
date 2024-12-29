@@ -1,18 +1,22 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 15px;
+    justify-content: center;
+
+    font-size: 1em;
     font-family: outfit, sans-serif;
     background-color: hsl(212, 45%, 89%);
 }
 
 .container {
-    width: 18%;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 6%;
+
+    margin: 30px;
     padding: 10px;
     border-radius: 10px;
     background-color: white;
@@ -21,12 +25,14 @@ body {
     width: 100%;
     border-radius: 10px;
 }
-.container p {
+
+.container p,
+.attribution {
     text-align: center;
 }
 
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
