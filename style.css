@@ -1,39 +1,47 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 1em;
-    font-family: outfit, sans-serif;
-    background-color: hsl(212, 45%, 89%);
+* {
+  margin: 0;
 }
 
-.container {
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-family: outfit, sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+.main__block {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 30px;
+  padding: 10px 10px 40px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.main__block__image {
+  width: 100%;
+  border-radius: 10px;
+}
+.main__block__title {
+  font-size: 1.2em;
+}
+.main__block__content {
+  color: gray;
+}
+.main__footer {
+  font-size: 11px;
+}
+.main__footer__link {
+  color: hsl(228, 45%, 44%);
+}
 
-    margin: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-}
-.container img {
-    width: 100%;
-    border-radius: 10px;
+h1, p, .main__footer {
+  text-align: center;
 }
 
-.container p,
-.attribution {
-    text-align: center;
-}
-
-.attribution {
-    font-size: 11px;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+/*# sourceMappingURL=style.css.map */
